@@ -38,7 +38,7 @@ function App() {
     <div>
       <header>
         <div className="header-container">
-          <div className="logo">LIDO</div>
+          <div className="logo">Resenhei</div>
           <div
             className="modal-bookcreate"
             onClick={() => {
@@ -49,9 +49,11 @@ function App() {
           </div>
         </div>
       </header>
-      <div>{modalOn}</div>
-      <div className="titulo-lista">{title}</div>
-      <BookList books={books} />
+      <div className="content-container">
+        <div>{modalOn}</div>
+        <div className="titulo-lista">{title}</div>
+        <BookList books={books} />
+      </div>
     </div>
   );
 }

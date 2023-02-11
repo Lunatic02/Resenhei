@@ -1,14 +1,32 @@
+import '../styles/BookShow.css';
+
 const BookShow = ({ book }) => {
+  let datas;
+  if (book.dateOne) {
+    datas = (
+      <h3>
+        {book.dateOne + ' até '}
+        {book.dateTwo}
+      </h3>
+    );
+  }
+  let titulo;
+  if (book.value) {
+    titulo = (
+      <div className="titulo-livro">
+        <h2>{book.value}</h2>
+        {datas}
+      </div>
+    );
+  }
+  let resenha;
+  if (book.resenha) {
+    resenha = <p>{book.resenha}</p>;
+  }
   return (
     <div>
-      <h2>{book.value}</h2>
-      <h3>
-        Resenha Livro: <br></br>
-      </h3>
-      <p>{book.resenha}</p>
-      <h4>
-        Lido em: {book.dateOne} até {book.dateTwo}
-      </h4>
+      {titulo}
+      {resenha}
     </div>
   );
 };

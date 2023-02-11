@@ -1,0 +1,33 @@
+h2{
+  color: #59332F;
+  font-size: 52px;
+  position: relative;
+}
+h2::before{
+  content: "";
+  position: absolute;
+  background-color: #BFA473;
+  height: 12px;
+  width: 58px;
+  top: 25px;
+  left: -65px;
+}
+.titulo-livro{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 40px 0 40px 0;
+}
+p{
+  font-size: 24px;
+  position: relative;
+}
+p::before{
+  content: "";
+  position: absolute;
+  background-color: #011826;
+  height: 12px;
+  width: 58px;
+  top: 25px;
+  left: -65px;
+}

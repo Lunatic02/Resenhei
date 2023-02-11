@@ -31,7 +31,7 @@ const BookCreate = ({ onFormSubmit, onClick }) => {
         <form onSubmit={handleSubmit}>
           <label>Livro Lido</label>
           <br />
-          <input onChange={handleChange} value={valueOfInput} />
+          <input required onChange={handleChange} value={valueOfInput} />
           <br />
           <label>Data Inicio: </label>
           <br />
@@ -48,6 +48,7 @@ const BookCreate = ({ onFormSubmit, onClick }) => {
           <label>Resenha:</label>
           <br />
           <textarea
+            required
             value={resenha}
             onChange={(e) => setResenha(e.target.value)}
           ></textarea>
