@@ -1,0 +1,57 @@
+.bookcreate-container{
+  display: flex;
+  height: 937px;
+  width: 1920px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bookcreate-item{
+  color: white;
+  background-color: #011826;
+  padding: 100px;
+  border-radius: 40px;
+  border: 3px solid #BFA473;
+}
+.bookcreate-item input{
+  width: 250px;
+  height: 40px;
+  margin-bottom: 50px;
+}
+.bookcreate-item textarea{
+  width: 350px;
+  height: 50px;
+}
+.bookcreate-item label{
+  font-size: 24px;
+  color: #BFA473;
+}
+
+.bookcreate-item button{
+  width: 355px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #BF7D56;
+  color: white;
+  border: 1px solid white;
+  border-radius: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal-close{
+  position: absolute;
+  top: 85px;
+  left: 1150px;
+  color: white;
+  border-radius: 50%;
+  padding: 30px;
+  height: 35px;
+  font-size: 40px;
+}
+
+.modal-close:hover{
+  color: #BFA473;
+  cursor: pointer;
+  transition: .3s;
+}
