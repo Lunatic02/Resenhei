@@ -32,7 +32,7 @@ function App() {
   if (books.length > 0) {
     title = <h1>Lista de Leituras 2023</h1>;
   } else {
-    title = <h1>Adicione Livros a Sua Lista</h1>;
+    title = <h1>Adicione Livros a Sua Lista...</h1>;
   }
   return (
     <div>
