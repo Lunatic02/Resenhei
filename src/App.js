@@ -18,6 +18,15 @@ function App() {
     ];
     setBooks(updatedBooks);
   };
+
+  const deleteBookById = (id) => {
+    const updatedBooks = books.filter((book) => {
+      return book.id !== id;
+    });
+
+    setBooks(updatedBooks);
+  };
+
   const modalToggle = (value) => {
     setModal(value);
   };
@@ -52,7 +61,7 @@ function App() {
       <div className="content-container">
         <div>{modalOn}</div>
         <div className="titulo-lista">{title}</div>
-        <BookList books={books} />
+        <BookList onDelete={deleteBookById} books={books} />
       </div>
     </div>
   );

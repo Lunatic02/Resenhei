@@ -1,6 +1,9 @@
 import '../styles/BookShow.css';
 
-const BookShow = ({ book }) => {
+const BookShow = ({ book, onDelete }) => {
+  const handleDeleteClick = () => {
+    onDelete(book.id);
+  };
   let datas;
   if (book.dateOne) {
     datas = (
@@ -16,6 +19,9 @@ const BookShow = ({ book }) => {
       <div className="titulo-livro">
         <h2>{book.value}</h2>
         {datas}
+        <button className="delete" onClick={handleDeleteClick}>
+          Delete
+        </button>
       </div>
     );
   }
