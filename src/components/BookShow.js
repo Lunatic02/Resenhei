@@ -20,7 +20,7 @@ const BookShow = ({ book, onDelete }) => {
         <h2>{book.value}</h2>
         {datas}
         <button className="delete" onClick={handleDeleteClick}>
-          Delete
+          Delete-me
         </button>
       </div>
     );
