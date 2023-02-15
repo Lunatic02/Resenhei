@@ -22,11 +22,12 @@ header{
   background-color: #011826;
   color: white;
   height: 60px;
+  width: 100%;
   
 }
 .header-container{
   display: flex;
-  width: 1200px;
+  width: 70%;
   height: 60px;
   margin: 0 auto;
   justify-content: space-between;
@@ -52,7 +53,24 @@ header{
 }
 
 .content-container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media (max-width: 700px){
+  header{
+    height: 40px;
+  }
+  .header-container{
+    width: 95%;
+    height: 40px;
+    font-size: 18px;
+  }
+  .titulo-lista h1{
+    font-size: 1.7em;
+    color: #BF7D56;
+    margin: 20px;
+    text-align: center;
+  }
 }
  
