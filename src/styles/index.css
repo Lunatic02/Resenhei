@@ -53,7 +53,7 @@ header{
 }
 
 .content-container {
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -71,6 +71,10 @@ header{
     color: #BF7D56;
     margin: 20px;
     text-align: center;
+  }
+  .content-container {
+    width: 100%;
+    margin: 0 auto;
   }
 }
  
