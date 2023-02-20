@@ -12,7 +12,7 @@
 
 Preview:
 ![image](https://user-images.githubusercontent.com/82097583/220138511-b3009701-85be-4c02-9439-48dc76cdd794.png)
-ADD BOOKS:
+Add Books:
 ![image](https://user-images.githubusercontent.com/82097583/220138583-5f2db233-4a70-4675-a1d2-91775d076560.png)
 With books:
 ![image](https://user-images.githubusercontent.com/82097583/220138888-39d77106-191b-44e8-a3a0-5db308e3bab2.png)
@@ -20,7 +20,14 @@ With books:
 Responsive:
 
 ![image](https://user-images.githubusercontent.com/82097583/220139453-e65ff54b-87f5-4fff-aa56-f35e1d23d612.png)
+
+
+Add Books:
+
 ![image](https://user-images.githubusercontent.com/82097583/220139491-4ea79401-42db-4dfe-93b4-2ab394b08ee1.png)
+
+With Books:
+
 ![image](https://user-images.githubusercontent.com/82097583/220139671-26e5bc3e-d168-4bf4-b421-4e76cc21c050.png)
 
 
