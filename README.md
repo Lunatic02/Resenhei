@@ -3,11 +3,13 @@
 <h1>Resenhei</h1>
 <h2>Um aplicativo criado para acompanhar suas leituras anuais</h2>
 <h3>Criado utilizando React</h3>
+<h4>Um crud em react</h4>
 <br>
 
 <h3>EN-US</h3>
 <h1>Resenhei</h1>
 <h2>An app designed to keep track of your yearly readings</h2>
+<h4>An React Crud</h4>
 <h3>Created using React</h3>
 
 Preview:
